@@ -8,11 +8,30 @@
     <h1>Login</h1>
     <!-- action - where the form sends data to -->
     <!-- method - what HTTP method (get/post) -->
+
+    <!-- Showing two ways of putting labels -->
+
+    <!-- <form>
+      <label>
+        Username:
+        <input type="text" placeholder="username">
+      </label>
+      <label>
+        Password:
+        <input type="password" placeholder="password">
+      </label>
+
+      <input type="Submit" name="Submit" value="Submit">
+    </form> -->
+
     <form>
-      <input type="text" placeholder="username">
-      <input type="password" placeholder="password">
+      <label for="username">Username:</label>
+      <input id="username" type="text" placeholder="username">
+
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="password">
+
       <input type="Submit" name="Submit" value="Submit">
     </form>
-
   </body>
 </html>
